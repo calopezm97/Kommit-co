@@ -42,7 +42,6 @@ public class DoubleLinkedList {
         if (delete.prev != null) {
             delete.prev.next = delete.next;
         }
-        delete = null;
     }
 
     public boolean search(int value){
